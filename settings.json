@@ -28,6 +28,14 @@
         "before": ["J"],
         "after": ["8", "j"]
       },
+      {
+        "before": ["f"],
+        "after": ["<leader>", "<leader>", "w"]
+      },
+      {
+        "before": ["F"],
+        "after": ["<leader>", "<leader>", "b"]
+      },
     ],
     "vim.visualModeKeyBindings": [
       {
@@ -45,16 +53,4 @@
         "after": ["<Esc>"]
       }
     ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-      {
-        "before": ["f"],
-        "after": ["<leader>", "<leader>", "w"]
-      },
-      {
-        "before": ["F"],
-        "after": ["<leader>", "<leader>", "b"]
-      },
-    ],
-    "vim.handleKeys": {
-    },
 }
