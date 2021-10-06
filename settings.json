@@ -19,7 +19,7 @@
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
-    "vim.normalModeKeyBindings": [
+    "vim.normalModeKeyBindingsNonRecursive": [
       {
         "before": ["K"],
         "after": ["8", "k"]
@@ -37,7 +37,7 @@
         "after": ["<leader>", "<leader>", "b"]
       },
     ],
-    "vim.visualModeKeyBindings": [
+    "vim.visualModeKeyBindingsNonRecursive": [
       {
         "before": ["K"],
         "after": ["8", "k"]
@@ -47,7 +47,7 @@
         "after": ["8", "j"]
       },
     ],
-    "vim.insertModeKeyBindings": [
+    "vim.insertModeKeyBindingsNonRecursive": [
       {
         "before": ["j", "j"],
         "after": ["<Esc>"]
