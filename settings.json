@@ -1,5 +1,6 @@
 {
     "telemetry.telemetryLevel": "off",
+    "editor.cursorSurroundingLines": 8,
     "editor.renderWhitespace": "all",
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 16,
