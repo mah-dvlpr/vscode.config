@@ -29,6 +29,14 @@
         "after": ["8", "j"]
       },
       {
+        "before": ["k"],
+        "after": ["g", "k"]
+      },
+      {
+        "before": ["j"],
+        "after": ["g", "j"]
+      },
+      {
         "before": ["f"],
         "after": ["<leader>", "<leader>", "f"]
       },
@@ -46,6 +54,14 @@
         "before": ["J"],
         "after": ["8", "j"]
       },
+      {
+        "before": ["k"],
+        "after": ["g", "k"]
+      },
+      {
+        "before": ["j"],
+        "after": ["g", "j"]
+      },
     ],
     "vim.insertModeKeyBindingsNonRecursive": [
       {
@@ -57,4 +73,5 @@
       "<C-k>": false
     },
     "latex-workshop.view.pdf.viewer": "tab",
+    "editor.wordWrap": "on",
 }
